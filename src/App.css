@@ -1,0 +1,30 @@
+html{
+    text-align: center;
+    padding: 100px;
+    background-color: rgba(83, 83, 83, 0.171);
+}
+.quantity{
+    padding:5px;
+}
+.quantity_minus{
+    background-color:rgb(219, 10, 10);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding:4px 10px;
+    font-size:22px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+}
+.quantity_minus:hover{
+    color: rgb(0, 0, 0);
+}
+.quantity_input{
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    padding:5px;
+}
